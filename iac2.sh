@@ -2,9 +2,9 @@
 
 echo "Atualizando o Sistema e instalando aplicações"
 
-apt update
-apt upgrade -y
-apt install unzip apache2 -y
+sudo apt update
+sudo apt upgrade -y
+sudo apt install unzip apache2 -y
 
 echo "Entrando no diretório TEMP"
 
